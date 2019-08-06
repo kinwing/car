@@ -26,7 +26,7 @@ class Bmw5
      */
     public function fix()
     {
-        echo "组装Bmw5";
+        echo "组装Bmw5".PHP_EOL;
     }
 
     /**
@@ -34,7 +34,7 @@ class Bmw5
      */
     public function sprayPaint()
     {
-        echo "喷漆Bmw5";
+        echo "喷漆Bmw5".PHP_EOL;
     }
 
     /**
@@ -42,6 +42,6 @@ class Bmw5
      */
     public function other()
     {
-        echo "其他Bmw5";
+        echo "其他Bmw5".PHP_EOL;
     }
 }

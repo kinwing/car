@@ -27,7 +27,7 @@ class BenzA
      */
     public function fix()
     {
-        echo "组装BenzA";
+        echo "组装BenzA" . PHP_EOL;
     }
 
     /**
@@ -35,7 +35,7 @@ class BenzA
      */
     public function sprayPaint()
     {
-        echo "喷漆BenzA";
+        echo "喷漆BenzA" . PHP_EOL;
     }
 
     /**
@@ -43,6 +43,6 @@ class BenzA
      */
     public function other()
     {
-        echo "其他BenzA";
+        echo "其他BenzA" . PHP_EOL;
     }
 }

@@ -5,6 +5,7 @@
  * Date: 2019/8/6
  * Time: 7:59
  */
+
 namespace car\bmw;
 
 class Bmw3
@@ -25,7 +26,7 @@ class Bmw3
      */
     public function fix()
     {
-        echo "组装Bmw3";
+        echo "组装Bmw3" . PHP_EOL;
     }
 
     /**
@@ -33,7 +34,7 @@ class Bmw3
      */
     public function sprayPaint()
     {
-        echo "喷漆Bmw3";
+        echo "喷漆Bmw3" . PHP_EOL;
     }
 
     /**
@@ -41,6 +42,6 @@ class Bmw3
      */
     public function other()
     {
-        echo "其他Bmw3";
+        echo "其他Bmw3" . PHP_EOL;
     }
 }

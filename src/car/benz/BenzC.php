@@ -5,6 +5,7 @@
  * Date: 2019/8/6
  * Time: 7:58
  */
+
 namespace car\benz;
 
 class BenzC
@@ -25,7 +26,7 @@ class BenzC
      */
     public function fix()
     {
-        echo "组装BenzC";
+        echo "组装BenzC" . PHP_EOL;
     }
 
     /**
@@ -33,7 +34,7 @@ class BenzC
      */
     public function sprayPaint()
     {
-        echo "喷漆BenzC";
+        echo "喷漆BenzC" . PHP_EOL;
     }
 
     /**
@@ -41,6 +42,6 @@ class BenzC
      */
     public function other()
     {
-        echo "其他BenzC";
+        echo "其他BenzC" . PHP_EOL;
     }
 }
